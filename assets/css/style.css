@@ -451,11 +451,61 @@ button {
 .contact {
     padding-top: 76px;
     padding-bottom: 88px;
-    background: #DEF6F5;
+    background: #def6f5;
 }
 .contact__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1016px;
+}
+
+/* Footer */
+.footer {
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__subtitle {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #2e2e2e;
+}
+.footer__link {
+    display: block;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #535353;
+}
+
+.footer__brand {
+    display: flex;
+    align-items: center;
+}
+.footer__social {
+    position: relative;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    left: -12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.footer__social:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.footer__copyright {
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #b0b5b4;
 }
