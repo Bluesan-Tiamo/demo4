@@ -351,3 +351,30 @@ button {
     font-size: 1.4rem;
     color: #9da6a5;
 }
+
+/* Pricing */
+.pricing {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.pricing__content {
+    display: flex;
+    column-gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing__number {
+    font-weight: 700;
+    font-size: 6.2rem;
+    text-align: center;
+    color: #0d1111;
+}
+.pricing__subtitle {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #767e7e;
+}
+
