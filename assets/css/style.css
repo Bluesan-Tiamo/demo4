@@ -48,7 +48,7 @@ button {
     border-radius: 14px;
 }
 .btn:hover {
-    border: 1px solid #1ebfc1;
+    border: 1px solid var(--primary-header);
     border-radius: 6px;
     background-color: #ffffff;
     color: var(--primary-header);
@@ -378,3 +378,84 @@ button {
     color: #767e7e;
 }
 
+/* About */
+
+.about {
+    padding-top: 65px;
+    padding-bottom: 130px;
+}
+.about__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about__left {
+    width: 36%;
+    margin-right: 72px;
+}
+.about__quote {
+    margin-top: 27px;
+    margin-bottom: 33px;
+    max-width: 419px;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5d6564;
+}
+.about__dash {
+    margin-right: 5px;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+.about__quote--name {
+    display: flex;
+    align-items: center;
+}
+.about__name {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #767e7e;
+}
+.about__name--in {
+    color: #070707;
+}
+.about__button {
+    display: flex;
+    margin-top: 52px;
+    column-gap: 30px;
+}
+.about__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    background: var(--primary-header);
+    transition: 0.25s;
+}
+.about__btn:hover {
+    color: var(--primary-header);
+    border: 2px solid var(--primary-header);
+    background-color: transparent;
+}
+.about__avata {
+    width: 679px;
+    height: 481px;
+    object-fit: cover;
+}
+
+/* Contact */
+.contact {
+    padding-top: 76px;
+    padding-bottom: 88px;
+    background: #DEF6F5;
+}
+.contact__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1016px;
+}
